@@ -1,0 +1,146 @@
+/* 浏览器样式重置 */
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea { margin: 0; padding: 0; }     
+header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details { display: block; }
+li { list-style: none; }
+h1, h2, h3, h4, h5, h6, small { font-size: 100%; }    
+a, button { cursor: pointer; } 
+a{ text-decoration: none; }
+body {background: #fff; font-family:"Microsoft Yahei";}
+
+/* 定义样式 */
+.width100{width:100%;}
+.sprites{background:url(img/sprites.png) 0 -60px no-repeat;}
+.flex{display:flex;}
+.flex_1{flex:1;}
+.flex_2{flex:2;}
+.flex_3{flex:3;}
+.flex_4{flex:4;}
+.flex_5{flex:5;}
+.flex_6{flex:6;}
+.flex_7{flex:7;}
+.flex_8{flex:8;}
+.flex_9{flex:9;}
+
+/* 主体样式 */
+header{border-bottom:2px solid #ffa000;}
+header .logo{
+	width:1200px;
+	height:84px;
+	margin:0 auto;
+}
+header .logo a{
+	display:block;
+	width: 150px;
+	height:84px;
+	text-indent:-9999px;
+	background:url(img/logo.png) center center no-repeat;
+}
+.content{
+	height:508px;
+	background:url(img/login_back.jpg) center center no-repeat;
+}
+.content_width,.footer_content{
+	position:relative;
+	width:1200px;
+	height:100%;
+	margin: 0 auto;
+}
+.content_login{
+	border-radius: 4px;
+    background: #fff;
+    width: 280px;
+    padding: 20px 40px;
+    position: absolute;
+    top: 44px;
+    left: 840px;
+}
+.content_login h2{
+	width:280px;
+	height:20px;
+	text-indent:-999px;
+}
+.content_login_box{
+	position:relative;
+	margin-top: 20px;
+}
+.content_login_box .usernum{
+    border-radius: 5px;
+    border: solid 1px #e5e5e5;
+    height: 43px;
+    line-height: 43px;
+    width: 225px;
+    background: #fff;
+    padding-left: 53px;
+    color: #999;
+    font-size: 14px;	
+}
+.content_login_box .pass_icon{
+	background-position: -30px -100px;
+}
+ .checks input{display:none;}
+ .checks label{font-size:14px;padding-left:20px;}
+ .checks .checkd_img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    cursor:pointer;
+}
+    
+.checkd_img_link{background-position: -60px -100px;}
+.checkd_img_active{background-position: -80px -100px;}
+.ffa000_a{color:#ffa000;text-decoration: underline;}
+.checks a{font-size:14px;margin-left:120px;}
+.login_btn button{ 
+	background: #ffa000;
+    height: 50px;
+    color: #fff;
+    width: 280px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.register_link p{
+	text-align:center;
+}
+footer{
+	padding: 20px 0px;
+    background: #fafafa;
+    line-height: 20px;
+    border-top: solid 1px #ccc;
+}
+.catalogue_l dl dt{
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;}
+.catalogue_l dl dd a{
+    display: block;
+    font-size: 12px;
+    line-height: 28px;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all.2s ease-in;
+    transition: all .2s ease-in;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.catalogue_l dl dd a:hover{padding-left:10px;color:#ffa000;}
+.catalogue_r >div h3{font-size:14px;font-weight:normal;}
+.friendly_link{margin-top:20px;padding:10px 0; border-top:1px solid #f1f1f1;border-bottom:1px solid #f1f1f1;}
+.friendly_link_r a{margin-right:10px;color:#333;font-size:13px;}
+.footerBottom{
+    padding-left: 200px;
+    background: url(img/logo.png) no-repeat left 15px;
+    height: 50px;
+    padding-top:15px;
+}
+.footerBottom p{
+    font-size:13px;
+    color:#333;
+}
+
+
+

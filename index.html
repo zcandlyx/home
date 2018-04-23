@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>家之道</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="width100">
+		<div class="logo"><a href="">家之道</a></div>
+	</header>
+	<div class="content width100">
+		<div class="content_width">
+			<div class="content_login">
+				<h2 class="sprites">欢迎登录</h2>
+				<div class="content_login_box">
+					<span class="sprites"></span>
+					<input class="usernum" type="text" placeholder="请输入用户名或手机号或邮箱">
+				</div>
+				<div class="content_login_box">
+					<span class="sprites pass_icon"></span>
+					<input class="usernum" type="text" placeholder="请输入密码">
+				</div>
+				<div class="content_login_box checks">
+					<label><span class="sprites checkd_img checkd_img_link"></span><input type="checkbox" checked="checked">一周内免登录</label>
+                    <a href="javascript:;" class="ffa000_a">忘记密码？</a>
+				</div>
+				<div class="content_login_box login_btn">
+					<button>登录</button>
+				</div>
+				<div class="content_login_box register_link">
+					<p>没有账号？现在就<a href="javascript:;" class="ffa000_a">注册</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer_content">
+			<div class="catalogue flex">
+				<div class="catalogue_l flex flex_8">
+					<dl class="flex_1">
+						<dt>关于我们</dt>
+						<dd><a href="javascript:;">关于家之道</a></dd>
+						<dd><a href="javascript:;">联系家之道</a></dd>
+						<dd><a href="javascript:;">加入家之道</a></dd>
+					</dl>
+					<dl class="flex_1">
+						<dt>家之道业务</dt>
+						<dd><a href="javascript:;">业务体系</a></dd>
+						<dd><a href="javascript:;">家之道产品</a></dd>
+						<dd><a href="javascript:;">家之道服务</a></dd>
+					</dl>
+					<dl class="flex_1">
+						<dt>关注家之道</dt>
+						<dd><a href="javascript:;">家之道微信</a></dd>
+						<dd><a href="javascript:;">APP下载</a></dd>
+					</dl>
+				</div>
+				<div class="catalogue_r flex flex_2">
+					<div class="home_img flex_1">
+						<img src="img/app_ewm.png" alt="">
+						<h3>下载家之道APP</h3>
+					</div>
+					<div class="home_img flex_1">
+						<img src="img/app_ewm.png" alt="">
+						<h3>关注家之道微信</h3>
+					</div>
+				</div>
+			</div>
+			<div class="friendly_link flex">
+				<div class="flex_1">友情链接</div>
+				<div class="friendly_link_r flex_9">
+					<a href="javascript:;">北京房产网</a>
+					<a href="javascript:;">豪宅别墅</a>
+					<a href="javascript:;">星空地产网</a>
+					<a href="javascript:;">文昌房产网</a>
+					<a href="javascript:;">地铁线路图</a>
+					<a href="javascript:;">北京人事考试网</a>
+					<a href="javascript:;">重庆二手房</a>
+					<a href="javascript:;">北京蓝房网</a>
+					<a href="javascript:;">大理房产</a>
+				</div>
+			</div>
+			<div class="footerBottom">
+				<p>北京家之道信息科技有限公司 Copyright@2017 ziroom.com 版权所有 京ICP备16015349号-1</p>
+				<p>联系客服：家之道微信 周一至周日09:00-22:00</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+<script src="jquery-1.11.1.min.js"></script>
+<script>
+  $(function(){
+  	$('.checkd_img').click(function(){
+  	  $(this).toggleClass('checkd_img_active')
+  	})
+  })
+</script>
